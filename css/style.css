@@ -1,0 +1,1152 @@
+/* Fondo */
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background: linear-gradient(#0066ff,hsl(215, 100%, 17%),#000000); */
+    background: linear-gradient(to right, #012E46 60%, #D9D9D9 40%); /* Degradado que cambia de color de rojo a azul en la mitad */
+}
+/* Fin Fondo */
+
+/* NAV */
+nav{
+    border-bottom: 4px solid #000000;
+    height: 80px;
+    width: 100%;
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Colocar los elementos a la derecha */
+    align-items: center; /* Centrar verticalmente */
+    color: #000000;
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.boton{
+    background-color: #A6A6A6;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 4px;
+    transition: background-color 0.7s; /* Agrega una transición suave para un cambio más fluido */
+    color: #000000;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background-color: #012E46; /* Cambia el color de fondo cuando el cursor está sobre el botón */
+    color: #A6A6A6;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+h2{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    font-size: 3em;
+    font-weight: 500;
+    color: #000000;
+    Letter-spacing: 5px;
+    cursor: pointer;
+}
+
+h2 span{
+    transition: 0.5s;
+}
+
+h2:hover span:nth-child(1){
+margin-right: 10px;
+}
+
+h2:hover span:nth-child(1):after{
+    content:".";
+}
+
+h2:hover span:nth-child(2){
+    margin-left: 40px;
+}
+
+h2:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff,
+                 0 0 160px #fff;
+}
+/* FIN NAV */
+
+/* ------------------------------------------ FOOTER ------------------------------------------------- */
+footer{
+	background-color: black;
+	margin-top: 0%;
+	margin-bottom: auto;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+}
+	 	
+
+.social{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.social a{
+	font-size: 20px;
+	display: inline-block;
+	border: 1px solid beige;
+	color: whitesmoke;
+	width: 40px;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.social a:hover{
+	background-color: antiquewhite;
+}
+
+.copy-right{
+	text-align: center;
+	padding-bottom: 30px;
+	color: whitesmoke;
+}
+/* -----------------------------------------FIN FOOTER ----------------------------------------------- */
+
+/* infh */
+
+.genin{
+    display: flex;
+}
+
+.gencar{
+    width: 60%;
+}
+
+.infocar{
+    width: 40%;
+    margin-top: 3%;
+}
+
+.infh{
+    margin-top: 6%;
+}
+
+
+.infoa{
+    width: 600px;
+    height: 600px;
+    font-size:small;
+    color: #1a1a1a;
+    margin: 20px;
+    float: left;
+    box-shadow: 3px  3px 7px rgba(0,0,0,.9);
+    border-radius: 10px;
+    background-color: #A6A6A6;
+}
+
+
+.infob{
+    width: 600px;
+    height: 600px;
+    font-size:small;
+    color: #1a1a1a;
+    margin: 20px;
+    float: left;
+    box-shadow: 3px  3px 7px rgba(0,0,0,.9);
+    border-radius: 10px;
+    background-color: #A6A6A6;
+}
+
+
+/* fin infh */
+/* ------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* --------------------------------HOME EMPRESA----------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.navbar{
+    border-bottom: 0px;
+    height: 80px;
+    width: 100%;
+    display: flex; /* Utilizar flexbox */
+    justify-content: space-between; /* Colocar los elementos a la derecha */
+    align-items: center; /* Centrar verticalmente */
+    position: relative;
+}
+
+.tituloem{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000000;
+    Letter-spacing: 5px;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN HOME EMPRESA-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* --------------------------------HOME USUARIO----------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.usu{
+    display: flex;
+    height: 800px;
+}
+
+.btcusu{
+    width: 60% !important;
+    height: 100%;
+    text-align: center;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btusu{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.busu1{
+    display: inline;
+    margin: 50px;
+    padding: 40px;
+}
+
+.busu2{
+    display: inline;
+    margin: 100px;
+}
+
+.imgusu{
+    width: 475px;
+    height: 325px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------ACT USUARIO--------------------------------------*/
+
+.act{
+    display: flex;
+    margin-top: 40px;
+}
+
+.tit{
+    color: #fff;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.tit1{
+    color: #000000;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.actusu{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center; /* Centra horizontalmente los elementos */
+}
+
+.actb{
+    color: #ffffff;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.actbb{
+    color: #000000;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.actba{
+    height: 40%;
+    background-color: #A6A6A6;
+    
+}
+
+.vehinu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center; /* Centra horizontalmente los elementos */
+    
+}
+
+
+
+/* ------------------------------FIN ACT USUARIO---------------------------------- */
+
+/* ------------------------------ AGENDAR CITA USUARIO --------------------------- */
+
+.gcita{
+    display: flex;
+}
+
+.empre{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center;
+}
+
+.citafo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center;
+}
+
+.citamo{
+    background: #012E46;
+    height: 400px;
+    width: 400px;
+    border-radius: 40px;
+}
+
+/* ----------------------------FIN AGENDAR CITA USUARIO --------------------------- */
+
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN HOME USUARIO-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------ AGENDAR CITA USUARIO --------------------------- */
+
+.gcita{
+    display: flex;
+}
+
+.empre{
+    width: 60%;
+}
+
+.citafo{
+    width: 40%;
+}
+
+/* ----------------------------FIN AGENDAR CITA USUARIO --------------------------- */
+
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN HOME USUARIO-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------INICIO CONTACTANOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+.imcontac{
+    position: absolute;
+    left: 12%;
+    top: 20%;
+}
+
+.contactanosinfo{
+    background-color: #012E46;
+    margin: 15px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 15px;
+    color: #ffff;
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    font-size: 20px;
+}
+
+.inputcontac{
+    border-radius: 15px;
+    border-color: 0px;
+    padding: 3px;
+    margin: 3px;
+    border: none;
+}
+
+.envcontac{
+    border-radius: 5px;
+    border: none;
+    margin: 8px;
+}
+
+.txtcontact{
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN CONTACTANOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------INICIO BUSQUEDA EMPRESA-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* esta parte es de la barra de busqueda */
+.barra_busqueda{
+    background-color: white;
+    position: absolute;
+    border-radius: 30px;
+    left: 15%;
+    top: 35%;
+    font-size: 20px;
+    display: flex;
+    width: 20%;
+}
+
+#searchButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#searchButton img {
+    width: 47px;
+}
+
+.busqueda{
+    margin: 10px;
+    text-align: center;
+    width: 70%;
+}
+
+input[type="textt"] {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 20px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+/* aqui es para los nombres y logos de las empresas */ .container{
+    display: flex;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-size: 12px;
+}
+.imgempre{
+    background-color: #A6A6A6;
+    margin: 8px;
+    border-radius: 10px;
+    width: 190px;
+    height: 92px;
+}
+
+/* esto es para la informacion de la empresa */
+.sobre_empresa{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+.inforempre{
+    margin-right: 50%;
+    font-size: 20px;
+}
+
+.imgem{
+    background-color: #A6A6A6;
+    margin: 8px;
+    border-radius: 10px;
+    width: 230px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN BUSQUEDA EMPRESA-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------INICIO EMPRESA-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.boton_le,
+.boton_sa,
+.boton_sc,
+.boton_empre {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    background-color: #426d99;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    height: 60px;
+    width: auto;
+}
+
+.boton_le {
+    top: 38%;
+    left: 65%;
+}
+
+.boton_sa {
+    top: 38%;
+    left: 89%;
+}
+
+.boton_sc {
+    top: 60%;
+    left: 79%;
+}
+
+
+.botones a:hover,
+.boton_empre:hover {
+    background-color: rgba(146, 146, 146, 0.356);
+    border-radius: 10px;
+}
+
+.boton_le:hover,
+.boton_sa:hover,
+.boton_sc:hover {
+    background-color: #0056b3;
+} */
+
+/* boton de empresa */
+
+#boton_empre {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+  
+#boton_empre:hover {
+    background-color: rgba(146, 146, 146, 0.356);
+    border-radius: 10px;
+}
+
+/* fin boton de empresa */
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN EMPRESA-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------INICIO BOTONES DESPLEGABLES EMPRESA-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+.containerempre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: 100px;
+}
+
+.botemp{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.botemp:hover {
+    background-color: #3e8e41;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN BOTONES DESPLEGABLES EMPRESA-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------INICIO CREAR SERVICIOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.flecha{
+    background: transparent;
+    border: none;
+}
+
+.textcreaservi{
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.botoncreaservi{
+    white-space: nowrap;
+}
+
+.dropdown{
+    margin: 10px;
+    display: inline-block;
+}
+
+.custom-btn {
+    width: 160px;
+    height: auto;
+    font-size: 16px;
+}
+
+.editinfo{
+    background-color: #012E46;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.elimservi{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.menuservicios{
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN CREAR SERVICIOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------INICIO ACTUALIZAR DATOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.formad {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.labelad{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.inputad{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.inputad:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #6c63ff;
+}
+
+.botonad{
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botonad:hover {
+    background-color: #2e409e;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* -------------------------------FIN ACTUALIZAR DATOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------INICIO LISTA DE EMPLEADOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.flecha{
+    background: transparent;
+    border: none;
+}
+
+.box_listem{
+    background-color: #A6A6A6;
+    display: flex;
+    margin: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.totserv{
+    background-color: #A6A6A6;
+    border-radius: 10px;
+    color: #000;
+    height: 20%;
+    text-align: center;
+    margin-right: 10px;
+}
+.texto_listemple{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------FIN LISTA DE EMPLEADOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------INICIO LISTA CITAS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.flecha{
+    background: transparent;
+    border: none;
+}
+.texto_liscit{
+    color: #012E46;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.botonlistcita{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.columlist{
+    width: 50%;
+    display: flex;
+}
+
+.listcita{
+    width: 50%; 
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #012E46;
+    color: #ffff;
+    margin-left: 50px;
+    
+}
+
+.listcita:hover {
+    background-color: lightblue;
+}
+
+.asigemple-container {
+    display: none;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------FIN LISTA CITAS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------INICIO CREAR EMPLEADO-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.flecha{
+    background: transparent;
+    border: none;
+}
+
+.creaemple{
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color:  white;
+  }
+.containerEml{
+    background-color: #012E46;
+}
+  
+
+.labelcreeml {
+    display: block;
+    margin-top: 20px;
+}
+  
+.inputinpeml{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+  
+.butce{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.butce:hover {
+    background-color: #3E8E41;
+}
+  
+#generated-password {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------FIN CREAR EMPLEADO-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------INICIO ACTUALIZAR DATOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.container_ad{
+    max-width: 30%;
+    margin: 50px auto;
+    background-color: #012E46; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    left: 15%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="emaill"],
+input[type="tell"],
+input[type="textt"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="emaill"]:focus,
+input[type="tell"]:focus,
+input[type="textt"]:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #6c63ff;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2e409e;
+}
+
+.imagedifi{
+    position: absolute;
+    left: 70%;
+    top: 30%;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------FIN ACTUALIZAR DATOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------INICIO SERVICIOS ACTIVOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+.flecha{
+    background: transparent;
+    border: none;
+}
+
+.box_1,
+.box_2,
+.box_3 {
+    background-color: #A6A6A6;
+    display: flex;
+    margin: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.valor{
+    background-color: #58595B;
+    border-radius: 10px;
+    color: #C1FF72;
+    height: 20%;
+}
+.texto_serv{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------FIN SERVICIOS ACTIVOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------HOME EMPLEADOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+.botonesemple{
+    margin-top: 11%;
+    margin-left: 30%;
+  }
+  
+  
+  
+  .btn-1{
+    background-color: rgb(4, 63, 90);
+    border: 0px;
+    border-radius:5%;
+    padding: 25px;
+    margin-right: 15px;
+  }
+  
+  .btn-2{
+    background-color: rgb(4, 63, 90);
+    border-radius: 5%;
+    border: 0px;
+    padding: 25px;
+    margin-left: 55px;
+  }
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .button-image {
+    width: 350px;
+    height: 350px;
+    margin-top: 0px;
+    margin-left:3%;
+  }
+/* ------------------------------------------------------------------------------- */
+/* --------------------------FIN HOME EMPLEADOS-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------INICIO DETALLES DE MOVIMIENTO-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.container-emp {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+  
+.movimiento-emp{
+    background-color: white;
+    margin: 10px;
+    height: 30px;
+    width: 700px;
+
+}
+
+.image-emp {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 120%;
+    margin-left: 45%;
+  }
+
+
+
+.total-emp1{
+    width: 20px;
+    margin-bottom: 89%;
+    position: absolute;
+    left: 65%;
+    color: #000;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+  
+.button-image1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 60%;
+    top: -50%;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* --------------------------FIN DETALLES DE MOVIMIENTO-------------------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.txtasa{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor-emple{
+    width: 40%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.conade{
+    display: flex;
+}
+
+.card-header{
+    height: 200px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+.card-title{
+    text-align: center;
+    margin: 0;
+}
+.card-description{
+    flex-grow: 1;
+}
+
+
+.extra-info {
+    display: none;
+}
+@media(min-width: 480px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:  10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+} 
